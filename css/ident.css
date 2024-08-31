@@ -1,0 +1,88 @@
+.ident{
+    width: 100%;
+    height: 73vh;
+}
+.ident-title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: xx-large;
+}
+.ident-empty{
+    width: 60px;
+    height: 2.5px;
+    background-color: rgb(0, 132, 255);
+    margin: auto;
+    margin-top: 3px;
+}
+.ident-contianer{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    
+}
+.ident-inf{
+    width: 30%;
+    height: 240px;
+    text-align: center;
+    padding: 20px 14px;
+    border: 2px solid rgb(189, 181, 181) ;
+    float: left;
+    position: relative;
+}
+.div1{
+    margin: 0px 5%;
+}
+.ident-icon{
+    font-size: 28px;
+    color: rgb(0, 132, 255) ;
+    margin-top: 10px;
+}
+.ident-inf-title{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.ident-inf-p{
+    margin-top: 14px;
+}
+.ident-inf-p1{
+    margin-top: 2.5px;
+}
+.ident-inf-p {
+    margin-left: 10px;  
+}
+.ident-inf-p2{
+    margin-top: 20px;
+    color:  rgb(0, 132, 255);
+}
+.ident-inf-p3{
+    margin-left: 5px;   
+}
+a{
+    text-decoration: none;
+}
+.mg{
+    margin: 0 5% 0 5%;
+}
+.ident-inf:after{
+    position: absolute;
+    content:"";
+    width:0;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgb(106, 175, 240);
+    opacity: 0;
+}
+.ident-inf:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}
+.ident-inf:hover{
+    border: 2px solid rgb(106, 175, 240);
+    transition: 1s;
+}

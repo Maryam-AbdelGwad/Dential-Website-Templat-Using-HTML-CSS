@@ -1,0 +1,76 @@
+.work{
+    width: 100%;
+    height: 84vh;
+    background-color: rgba(27, 108, 230, 0.661);
+}
+.work-contianer{
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    
+}
+.work-empty{
+    width: 90px;
+    height: 3px;
+    background-color: rgb(0, 132, 255);
+    margin-top: 5px;
+    
+}
+.work-title{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.work-content{
+    width: 40%; 
+    padding-top: 130px;
+    float: left;
+}
+.work-p{
+    margin-top: 30px;
+    font-size: large;
+    line-height: 20px;
+}
+.work-p1{
+    display:inline ;
+    margin-top: 5px;
+}
+.text1{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.work-icon{
+color: rgb(14, 88, 206);
+font-size: 18px;
+}
+.work-contentplus{
+    width:40% ;
+    margin-left: 15%;
+    float: left;
+    text-align: center;
+}
+.work-img{
+    display: block;
+    padding-top: 130px;
+}
+i{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 7px;
+    color: rgb(249, 250, 252);  
+}
+.i1{
+    margin-right: 5px;
+    color: rgb(14, 88, 206);
+}
+.i3{
+    margin-left: 13px;
+}
+.i2:hover , .i3:hover{
+    color: rgb(14, 88, 206); 
+}
